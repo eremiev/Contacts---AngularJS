@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="src/bootstrap.min.css" />
     <title>Contacts</title>
 </head>
-<body>
+<body ng-app="ContactsApp">
 <script src="lib/jquery/dist/jquery.min.js"></script>
 <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/angular/angular.min.js"></script>
+<script src="src/app.js"></script>
         <div class="container">
             <div class="page-header">
-                <h1>Contacts</h1>
+                <h1>Contacts: {{ message }}</h1>
             </div>
         </div>
 </body>
